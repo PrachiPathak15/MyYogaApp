@@ -28,7 +28,7 @@ const Payment = () => {
         }
         else{          
             setLoading(true)
-            fetch('https://yoga-backend-o9ai.onrender.com/api/payment', {
+            fetch('https://my-yoga-app.onrender.com/api/payment', {
                 method: 'POST',
                 headers: {
                     'Content-Type': 'application/json'
